@@ -1,0 +1,9 @@
+🔗 Linked List is a dynamic data structure used to store a collection of elements called nodes.
+ 
+Each node contains data and a link → to the next node in the sequence.
+ 
+Unlike arrays, linked lists do not require continuous memory locations, making insertion ➕ and deletion ➖ easier at suitable positions. 
+
+Linked lists are widely used in stacks, queues, and other data structures.
+
+Understanding linked lists creates a strong foundation for learning advanced DSA concepts → 🚀.
