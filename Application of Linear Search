@@ -1,0 +1,13 @@
+5 Real-Life Applications of Linear Search
+
+📱 Finding a Contact
+When you search through a small contact list, the system can check names one by one until it finds the person you're looking for.
+
+📚 Searching for a Book
+Imagine checking books on a shelf from left to right until you find “Introduction to Python.” That's essentially linear search in action.
+
+🛒 Finding an Item in a Shopping List
+If you have a list like ["Milk", "Bread", "Rice", "Apples"] and want to find "Rice", you can check each item sequentially.
+
+🎓 Finding a Student's Record
+In a small classroom record, the system can examine each student's name one by one until it finds the required student.

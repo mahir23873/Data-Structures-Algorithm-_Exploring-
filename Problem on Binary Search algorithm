@@ -1,0 +1,53 @@
+Problem Statement: 
+Search a Student Roll Number Using Binary Search
+
+Example: A college maintains a list of student roll numbers in sorted order. 
+Write a Python program that uses the Binary Search algorithm to search for a given roll number.
+If the roll number is found, display its position in the list. If it is not present, display an appropriate messa
+
+Roll numbers: [101, 105, 110, 115, 120, 125, 130, 135]
+Roll number to search: 125
+
+Approach: 
+Binary Search works by repeatedly dividing the sorted list into two halves.
+Set low to the first index and high to the last index.
+Find the middle element using (low + high) // 2.
+If the middle element is the target, return its position.
+If the target is greater, search the right half.
+If the target is smaller, search the left half.
+Continue until the element is found or no elements remain.
+
+# Binary Search for Student Roll Number
+
+def binary_search(roll_numbers, target):
+    low = 0
+    high = len(roll_numbers) - 1
+
+    while low <= high:
+        mid = (low + high) // 2
+
+        if roll_numbers[mid] == target:
+            return mid
+
+        elif roll_numbers[mid] < target:
+            low = mid + 1
+
+        else:
+            high = mid - 1
+
+    return -1
+
+
+# Sorted student roll numbers
+roll_numbers = [101, 105, 110, 115, 120, 125, 130, 135]
+
+target = 125
+
+result = binary_search(roll_numbers, target)
+
+if result != -1:
+    print("Roll number", target, "found at index", result)
+else:
+    print("Roll number", target, "not found")
+
+Roll number 125 found at index 5

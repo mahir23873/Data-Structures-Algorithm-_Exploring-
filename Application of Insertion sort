@@ -1,0 +1,13 @@
+4 Applications of Insertion Sort
+
+Small datasets
+Efficient for sorting a small number of elements
+
+Nearly sorted data
+Performs very well when most elements are already in order.
+
+Online sorting
+Useful when new data arrives one element at a time and needs to be inserted into the correct position.
+
+As a part of hybrid algorithms
+Often used for small subarrays inside more advanced sorting algorithms because of its simplicity and low overhead.

@@ -1,0 +1,22 @@
+Insertion Sort in Python
+
+Insertion Sort is one of those algorithms that looks almost too simple at first. 
+Then you realize the idea behind it appears in many places in everyday life.
+
+Think about arranging playing cards in your hand. 
+You pick one card, compare it with the cards already arranged, shift the larger cards, and insert the new card into its correct position.
+That is essentially Insertion Sort.
+
+For each element starting from the second element:
+
+•Store the current element as key.
+
+•Compare key with the elements before it.
+
+•If an element is greater than key, shift it one position to the right.
+
+•Continue comparing until the correct position is found.
+
+•Insert key into that position.
+
+•Repeat until the complete list is sorted.

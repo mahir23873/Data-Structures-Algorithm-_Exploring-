@@ -1,0 +1,35 @@
+# Insertion Sort
+
+def insertion_sort(arr):
+    for i in range(1, len(arr)):
+        key = arr[i]
+        j = i - 1
+
+        # Move elements greater than key
+        # one position to the right
+        while j >= 0 and arr[j] > key:
+            arr[j + 1] = arr[j]
+            j -= 1
+
+        # Insert key at the correct position
+        arr[j + 1] = key
+
+
+# Main program
+numbers = [7, 3, 8, 2, 6]
+
+print("Original list:", numbers)
+
+insertion_sort(numbers)
+
+print("Sorted list:", numbers)
+*************************************************************
+Insertion Sort doesn't try to solve the entire problem in one giant step.
+
+It gradually builds the answer:
+
+[7]
+[3, 7]
+[3, 7, 8]
+[2, 3, 7, 8]
+[2, 3, 6, 7, 8] - Final Output 
