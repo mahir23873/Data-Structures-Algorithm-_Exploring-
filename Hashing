@@ -1,0 +1,115 @@
+🔐 Hashing in Data Structures and Algorithms (DSA)
+
+🚀 What is Hashing?
+
+Hashing is a technique used to store and retrieve data efficiently by converting a given key into a specific index using a function called a Hash Function.
+
+It allows us to access information quickly without searching through every element one by one.
+
+For example, imagine a student database where every student has a unique roll number. Instead of checking every student's record, hashing helps locate the required record using its roll number.
+
+⚙️ How Does Hashing Work?
+
+Hashing mainly involves three components:
+
+- 🔑 Key: The value used to identify the data.
+- ⚙️ Hash Function: Converts the key into an index.
+- 📦 Hash Table: Stores data at the calculated index.
+
+Example:
+
+Suppose our hash function is:
+
+"h(key) = key % 10"
+
+If the key is "25":
+
+"h(25) = 25 % 10 = 5"
+
+Therefore, the data is stored at index "5" in the hash table.
+
+---
+
+📚 Types of Hashing
+
+1. 🔹 Static Hashing
+
+- The size of the hash table remains fixed.
+- The hash function maps keys to a fixed range of indexes.
+- Suitable when the amount of data is relatively predictable.
+
+2. 🔹 Dynamic Hashing
+
+- The hash table can grow or shrink according to the amount of data.
+- Helps manage changing datasets efficiently.
+- Commonly used in database indexing techniques.
+
+---
+
+⚡ Collision Handling Techniques
+
+A Collision occurs when two different keys generate the same hash index.
+
+For example:
+
+"h(25) = 5"
+
+"h(35) = 5"
+
+Both keys map to index "5". To handle this situation, we use the following techniques:
+
+1. 🔗 Separate Chaining
+
+- Each hash table index maintains a linked list of elements.
+- Multiple keys can be stored at the same index.
+- New elements are added to the corresponding chain.
+
+2. ➡️ Open Addressing
+
+- All elements are stored directly inside the hash table.
+- If an index is occupied, another available position is searched.
+
+Common types of Open Addressing:
+
+- Linear Probing → Checks the next available position sequentially.
+- Quadratic Probing → Uses quadratic intervals to find another position.
+- Double Hashing → Uses a second hash function to calculate the next position.
+
+---
+
+📊 Advantages of Hashing
+
+- ⚡ Fast data searching and retrieval.
+- 📦 Efficient data storage and management.
+- 🔍 Average-case search, insertion, and deletion can take O(1) time.
+- 💻 Useful for handling large collections of data.
+
+⚠️ Disadvantages of Hashing
+
+- Collisions can occur.
+- Poor hash functions can reduce performance.
+- Maintaining an efficient hash table may require resizing.
+- Hash tables do not naturally maintain data in sorted order.
+
+---
+
+🌍 Real-Life Applications of Hashing
+
+- 🔑 Password storage and verification.
+- 📞 Fast contact lookup.
+- 🗄️ Database indexing.
+- 🌐 Caching in web applications.
+- 🔍 Finding duplicate records.
+- 💻 Implementing dictionaries and sets.
+
+---
+
+🎯 Key Takeaway
+
+Hashing is one of the most important concepts in DSA because it makes data storage and retrieval significantly faster.
+
+Remember:
+
+"Key → Hash Function → Index → Hash Table"
+
+Understanding hashing is an important step towards mastering efficient data structures and developing better problem-solving skills. 🚀
