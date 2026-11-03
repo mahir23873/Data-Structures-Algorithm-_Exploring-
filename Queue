@@ -1,0 +1,17 @@
+📚 Queue in Data Structures & Algorithms
+
+A Queue is a linear data structure that follows the FIFO (First In, First Out) principle. The element inserted first is removed first, just like people waiting in a ticket counter line.
+
+🔹 Types of Queue
+
+1. Simple Queue: Follows FIFO order with insertion at the rear and deletion at the front.
+2. Circular Queue: Connects the last position back to the first to utilize memory efficiently.
+3. Priority Queue: Elements are removed according to their priority.
+4. Deque (Double-Ended Queue): Allows insertion and deletion from both ends.
+
+⚡ Applications
+
+- CPU scheduling
+- Printer management
+- Network data handling
+- Task scheduling
