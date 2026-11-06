@@ -1,0 +1,14 @@
+Mark it as visited.
+Visit an unvisited adjacent node.
+Backtrack when no unvisited nodes remain.
+🛠️ Implementation
+Stack (LIFO)
+Recursion
+⏱️ Time Complexity
+- O(V + E)
+🌍 Applications
+Maze solving
+Cycle detection
+Path finding
+Topological sorting
+💡 Key Takeaway: DFS explores deeply before moving to another path.
