@@ -1,0 +1,13 @@
+🔧 Basic Operations
+Insertion ➕
+Deletion ❌
+Searching 🔍
+Traversal 🔄
+⏱️ Time Complexity
+Average: O(log n)
+Worst Case: O(n)
+🌍 Applications
+Searching and sorting
+Database indexing
+Maintaining sorted data
+💡 Key Takeaway: BST makes searching efficient by organizing data in a sorted structure.
